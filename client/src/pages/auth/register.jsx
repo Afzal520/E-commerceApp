@@ -28,7 +28,7 @@ function AuthRegister() {
         navigate("/auth/login");
       } else {
         toast({
-          title: data?.payload?.message,
+          title:"Something went wrong",
           variant: "destructive",
         });
       }
